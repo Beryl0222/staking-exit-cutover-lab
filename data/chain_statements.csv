@@ -1,0 +1,11 @@
+event,known_epoch,kind,validator,risk_epoch,amount,ref
+C1,10,reward,V1,9,15,
+C2,12,slash,V1,9,30,
+C3,13,clear_through,V1,9,,
+C4,14,clear_through,V1,10,,
+C5,14,arrived,V1,10,21,U1
+C10,15,clear_through,V1,11,,
+C6,15,arrived,V1,11,36,U2
+C7,16,arrived,V1,12,7,U3
+C8,16,clear_through,V1,12,,
+C9,17,slash,V1,9,2,

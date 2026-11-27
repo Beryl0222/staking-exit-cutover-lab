@@ -1,0 +1,10 @@
+op,epoch,sequence,kind,owner,from,to,amount,ref
+D1,11,1,deposit,M4,,V1,45,
+M1,10,1,move,M1,J1,V2,25,
+X1,10,2,exit,M1,J1,,50,
+X2,10,3,exit,M2,J2,,42,
+U1,10,4,begin,M1,V1,,32,X1
+W1,11,2,withdraw,M1,X1,,5,X1
+U2,11,3,begin,M2,V1,,36,X2
+U3,12,1,begin,M1,V1,,13,X1
+U4,12,2,begin,M2,V1,,6,X2
